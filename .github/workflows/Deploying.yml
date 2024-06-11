@@ -8,7 +8,6 @@ jobs:
     name: Deploying to VM
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    needs: BuildingPreimages
     steps:
       - name: Deploying to VM
         uses: appleboy/ssh-action@master
